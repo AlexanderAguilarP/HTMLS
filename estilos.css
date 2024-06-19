@@ -1,0 +1,44 @@
+.B1{
+    background-color: red;
+    color: white;
+    height: 500px;
+    padding: 0;
+}
+.B2{
+    background-color: green;
+    height: 150px;
+    color: black;
+    border-radius: 20px;
+    padding: 0;
+}
+
+
+.Solido {
+    display: inline-block;
+    border: 2px solid #000;
+    margin: 0px;
+    padding: 0px;
+    flex: 0;
+   
+}
+
+.discontinuo {
+    display: inline-block;
+    border: 2px dashed #000;
+    flex: 0;
+    padding: 0px;
+}
+
+.punteado {
+    border: 2px dotted #000;
+    display: inline-block;
+    margin: 20px;
+    padding: 0px;
+}
+
+.doble {
+    border: 4px double #000;
+    display: inline-block;
+    padding: 0px;
+}
+
