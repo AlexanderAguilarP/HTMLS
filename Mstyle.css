@@ -1,0 +1,26 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 0fr 1fr;
+    grid-template-rows: 0.7fr 1.3fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    
+  }
+  
+.container .Nombre { grid-area: 1 / 1 / 2 / 4; 
+background-color: red;
+height: 500px;
+}
+  
+.container  .main { grid-area: 2 / 1 / 4 / 2; 
+background-color: blue;
+}
+  
+.container .footer { grid-area: 3 / 1 / 4 / 4; 
+background-color: pink;
+}
+
+  
+ .container .aside { grid-area: 2 / 2 / 3 / 4; 
+background-color: brown;
+}
+  
